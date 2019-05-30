@@ -24,6 +24,11 @@ def bonus
  
 puts epic_tragedy
 
+epic_tragedy[:capulet][:heroine][:status] = "dead"
+ 
+puts epic_tragedy
+
+
   
 
   #Don't touch the following line! The `bonus` method must return our newly modified epic tragedy hash
